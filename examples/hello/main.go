@@ -2,9 +2,9 @@ package main
 
 import (
 	"context"
-	v1 "github.com/changmin888/protoc-gen-go-gin/examples/hello/api/hello/v1"
-	"github.com/changmin888/protoc-gen-go-gin/pkg/errors"
 	"github.com/gin-gonic/gin"
+	v1 "github.com/gittduse/protoc-gen-go-gin/examples/hello/api/hello/v1"
+	"github.com/gittduse/protoc-gen-go-gin/pkg/errors"
 	"log"
 )
 
@@ -13,7 +13,7 @@ type helloService struct {
 
 func (s *helloService) GetHello(ctx context.Context, request *v1.GetHelloRequest) (response *v1.GetHelloReply, err error) {
 	if request.GetName() != "aaron" {
-		err = errors.InvalidArgument("the name is invalid", map[string]string{"name": "invalid name"})
+		err = errors.New(400, "PARAMS ERROR", "he name is invalid")
 	} else {
 		response = &v1.GetHelloReply{
 			Message: "hello " + request.GetName(),

@@ -1,8 +1,8 @@
 package binding
 
 import (
-	"github.com/changmin888/protoc-gen-go-gin/pkg/errors"
 	"github.com/gin-gonic/gin"
+	"github.com/gittduse/protoc-gen-go-gin/pkg/errors"
 	"net/http"
 )
 

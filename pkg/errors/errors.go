@@ -3,7 +3,7 @@ package errors
 import (
 	"errors"
 	"fmt"
-	httpstatus "github.com/changmin888/protoc-gen-go-gin/pkg/status"
+	httpstatus "github.com/gittduse/protoc-gen-go-gin/pkg/status"
 	"google.golang.org/genproto/googleapis/rpc/errdetails"
 	"google.golang.org/grpc/status"
 )
