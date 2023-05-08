@@ -16,7 +16,7 @@
 安装方法
 
 ```bash
-go install github.com/changmin888/protoc-gen-go-gin@latest
+go install github.com/gittduse/protoc-gen-go-gin@latest
 ```
 
 ## 使用说明
