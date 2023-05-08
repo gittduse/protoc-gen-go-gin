@@ -4,8 +4,8 @@ package v1
 
 import (
 	context "context"
-	binding "github.com/changmin888/protoc-gen-go-gin/pkg/transport/http/binding"
 	gin "github.com/gin-gonic/gin"
+	binding "github.com/gittduse/protoc-gen-go-gin/pkg/transport/http/binding"
 	metadata "google.golang.org/grpc/metadata"
 )
 
