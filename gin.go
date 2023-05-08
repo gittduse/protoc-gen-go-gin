@@ -14,7 +14,7 @@ const (
 	ginPkg     = protogen.GoImportPath("github.com/gin-gonic/gin")
 	//errPkg             = protogen.GoImportPath("errors")
 	metadataPkg        = protogen.GoImportPath("google.golang.org/grpc/metadata")
-	bindingPkg         = protogen.GoImportPath("github.com/changmin888/protoc-gen-go-gin/pkg/transport/http/binding")
+	bindingPkg         = protogen.GoImportPath("github.com/gittduse/protoc-gen-go-gin/pkg/transport/http/binding")
 	deprecationComment = "// Deprecated: Do not use."
 )
 
